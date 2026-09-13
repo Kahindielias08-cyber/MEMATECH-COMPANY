@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery | Elias Website</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f7fc;
+}
+
+header{
+background:#0dbdfd;
+padding:15px;
+text-align:center;
+color:white;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:50px 0;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+color:#0dc5fd;
+margin-bottom:40px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>MEMATECH COMPANY</h1>
+</header>
+
+<div class="container">
+
+<h2 class="title">Training Gallery</h2>
+
+<div class="gallery">
+
+<img src="images/computer1.jpg" alt="">
+<img src="images/computer2.jpg" alt="">
+<img src="images/computer3.jpg" alt="">
+<img src="images/computer4.jpg" alt="">
+<img src="images/computer5.jpg" alt="">
+<img src="images/computer6.jpg" alt="">
+
+</div>
+
+</div>
+
+<footer>
+
+<p>Email: kahindielias08@gmail.com</p>
+<p>Phone: 0686399827</p>
+<p>© 2026 MEMATECH COMPANY</p>
+
+</footer>
+
+</body>
+</html>
